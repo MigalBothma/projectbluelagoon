@@ -1,0 +1,32 @@
+
+.my-btn{
+     padding: 1rem 1rem;
+     border-radius: 9px;
+     font-family: Geneva, Verdana, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: rgba(255, 255, 255, 0.63);
+     font-size: 135%;
+     padding: 10px 20px;
+     border: solid rgba(255, 255, 255, 0.30) 1px;
+     z-index: 1;
+}
+
+.my-btn:hover{
+     border-radius: 9px;
+     font-family: Geneva, Verdana, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 150%;
+     color: white;
+     border: solid rgba(255, 255, 255, 0.6);
+}
+
+#wrapper {
+    width: 100vw;
+    height: 120vh;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.my-btn{
+    margin: auto;
+}
