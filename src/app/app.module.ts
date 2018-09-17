@@ -14,6 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { LandingComponent } from './landing/landing.component';
 import { SportDivingComponent } from './sport-diving/sport-diving.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SportDivingComponent } from './sport-diving/sport-diving.component';
     HomeComponent,
     AboutComponent,
     LandingComponent,
-    SportDivingComponent
+    SportDivingComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

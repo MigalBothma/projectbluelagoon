@@ -1,0 +1,15 @@
+.navbar{
+    background-color: rgba(255, 255, 255, 0)!important;
+    animation-name: navbarFadeIn;
+    animation-duration: 1.5s;
+}
+
+.btn-trans{
+    background-color: rgba(255, 255, 255, 0)!important;
+    color: aliceblue;
+}
+
+/* @keyframes navbarFadeIn{
+    from { top : 80px;}
+    to { top : 0px;}
+} */
