@@ -2,5 +2,13 @@
     justify-content: center;
 }
 .scrollable-hidden{
-    
+    overflow-y: scroll;
+    height: 100%;
+    padding-right: 55px;
+    padding-left: 0px;
+    margin-right: -32px;
+}
+
+.scrollable-hidden{
+    color: white;
 }
