@@ -13,8 +13,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { LandingComponent } from './landing/landing.component';
-import { SportDivingComponent } from './sport-diving/sport-diving.component';
+import { SpecialityDivingBasicNitrox } from './speciality-diving-basic-nitrox/speciality-diving-basic-nitrox.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { directorService } from './services/director.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     HomeComponent,
     AboutComponent,
     LandingComponent,
-    SportDivingComponent,
+    SpecialityDivingBasicNitrox,
     NavbarComponent
   ],
   imports: [
@@ -34,7 +35,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     TooltipModule.forRoot(),
     ModalModule.forRoot()
   ],
-  providers: [],
+  providers: [directorService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

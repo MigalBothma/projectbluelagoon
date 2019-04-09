@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { SportDivingComponent } from '../sport-diving/sport-diving.component'
 
 @Component({
   selector: 'navbar-component',

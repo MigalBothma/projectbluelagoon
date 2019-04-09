@@ -1,0 +1,44 @@
+.scrollable-hidden{
+    overflow-y: scroll;
+    height: 100%;
+    padding-right: 65px;
+    padding-left: 15px;
+    margin-right: -32px;
+}
+
+.leftHeaderText{
+    padding-left: 0;
+}
+
+.bookIcon{
+    padding: 5px 5px 5px 5px;
+}
+
+.scrollable-hidden{
+    color: black;
+}
+
+#sport-diving-img-wrapper{
+    overflow: hidden;
+}
+
+#sport-diving-img{
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.iconMinSize{
+    width: 20px;
+    align-content: center;
+}
+
+.fas{
+    line-height: 2 !important;
+}

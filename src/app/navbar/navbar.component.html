@@ -1,5 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" [routerLink]="['../home']">CMAS-ISA</a>
+  <div id="cmas-img-logo-wrapper">
+    <img id="cmas-img-logo" src="../../assets/images/Header2.png">
+  </div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -16,17 +18,17 @@
           Diving
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" [routerLink]="['../sport-diving']">Sport Diving</a>
-          <a class="dropdown-item" [routerLink]="['../sport-diving']">Leadership diving</a>
+          <a class="dropdown-item" [routerLink]="['../speciality-diving-basic-nitrox']">Speciality Diving - Basic Nitrox</a>
+          <!--<a class="dropdown-item" [routerLink]="['../sport-diving']">Leadership diving</a>
           <a class="dropdown-item" [routerLink]="['../sport-diving']">Specialty Diving</a>
           <a class="dropdown-item" [routerLink]="['../sport-diving']">Technical Diving</a>
-          <!--<div class="dropdown-divider"></div>
+          <div class="dropdown-divider"></div>
           <a class="dropdown-item" [routerLink]="['../sport-diving']">Something else here</a>-->
         </div>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link" [routerLink]="['../about']">About</a>
-      </li>
+      </li> -->
     </ul>
     <form class="form-inline">
       <button class="btn btn-trans" type="submit"> <i class="fas fa-sign-in-alt"></i> Login </button>

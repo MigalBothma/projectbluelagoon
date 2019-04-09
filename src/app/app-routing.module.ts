@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';     // Add this
 import { AboutComponent } from './about/about.component';  // Add this
 import { LandingComponent } from './landing/landing.component';
-import {SportDivingComponent } from './sport-diving/sport-diving.component'
+import { SpecialityDivingBasicNitrox } from './speciality-diving-basic-nitrox/speciality-diving-basic-nitrox.component';
 
 const routes: Routes = [
   {
@@ -22,8 +22,8 @@ const routes: Routes = [
   pathMatch: 'full'
   },
   {
-  path: 'sport-diving',
-  component: SportDivingComponent,
+  path: 'speciality-diving-basic-nitrox',
+  component: SpecialityDivingBasicNitrox,
   pathMatch: 'full'
   }
   ];

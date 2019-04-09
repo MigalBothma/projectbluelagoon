@@ -24,11 +24,11 @@
             ],
             "styles": [
               "src/styles.css",
-              "../CMAS-ISA/node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "./CMAS-ISA/node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
-              "../CMAS-ISA/node_modules/jquery/dist/jquery.min.js",
-              "../CMAS-ISA/node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "./CMAS-ISA/node_modules/jquery/dist/jquery.min.js",
+              "./CMAS-ISA/node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           },
           "configurations": {
@@ -54,6 +54,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
+            "browserTarget": "CMAS-ISA:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "CMAS-ISA:build:production"
+            }
+          }
+        },
+        "serve-80": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "port" : 80,
             "browserTarget": "CMAS-ISA:build"
           },
           "configurations": {

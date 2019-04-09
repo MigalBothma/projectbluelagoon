@@ -1,5 +1,5 @@
 
-.my-btn{
+.btn{
      padding: 1rem 1rem;
      border-radius: 9px;
      font-family: Geneva, Verdana, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -10,7 +10,7 @@
      z-index: 1;
 }
 
-.my-btn:hover{
+.btn:hover{
      border-radius: 9px;
      font-family: Geneva, Verdana, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      font-size: 150%;
@@ -29,4 +29,8 @@
 
 .my-btn{
     margin: auto;
+}
+
+.iamnew-btn{
+     float: right;
 }
